@@ -15,13 +15,18 @@ namespace LeetCode
         public Form1()
         {
             InitializeComponent();
-                        
+
             bool Test = E_Brackets.IsValid("(([]){})");
-            //string[] QQQ = new string[2] { "ab", "a" };
-            //string Outcome = LongestCommonPrefix(QQQ);
+            string[] QQQ = new string[2] { "ab", "a" };
+            string Outcome = LongestCommonPrefix(QQQ);
 
             //E_RomaNumber e_RomaNumber = new E_RomaNumber();
             //int TESTt =  e_RomaNumber.RomanToInt("X");
+
+
+            //int[] Testt = new int[] { 2, 3, 4, 5 };
+            //int Target = 9;
+            //int[] ans = E_TwoSum.TwoSum(Testt, Target);
 
             //bool TEst = IsPalindrome(12521);
         }
