@@ -15,16 +15,27 @@ namespace LeetCode
         public Form1()
         {
             InitializeComponent();
+            //int[] A_int = new int[] {6,5,5, 2, 3, 4, 5, 4, 5, 6 };
+            int[] A_int = new int[] { 1,1,2 };
+            string[] A_str = new string[2] { "ab", "a" };
+
+            string haystack = "qqqttlooll", needle = "ll";
 
             bool Test = E_Brackets.IsValid("(([]){})");
-            string[] QQQ = new string[2] { "ab", "a" };
-            string Outcome = LongestCommonPrefix(QQQ);
+
+            E_StrStr e_StrStr = new E_StrStr();
+            int indexStr = e_StrStr.StrStr(haystack, needle);
+
+            // This one odd
+            //E_RemoveDuplicates e_RemoveDuplicates = new E_RemoveDuplicates();
+            //int RDu = e_RemoveDuplicates.RemoveDuplicates(A_int);
+
+            //string Outcome = LongestCommonPrefix(QQQ);
 
             //E_RomaNumber e_RomaNumber = new E_RomaNumber();
             //int TESTt =  e_RomaNumber.RomanToInt("X");
 
 
-            //int[] Testt = new int[] { 2, 3, 4, 5 };
             //int Target = 9;
             //int[] ans = E_TwoSum.TwoSum(Testt, Target);
 
