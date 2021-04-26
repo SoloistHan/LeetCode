@@ -49,6 +49,7 @@
     <Compile Include="Easy\E_Brackets.cs" />
     <Compile Include="Easy\E_RomaNumber.cs" />
     <Compile Include="Easy\E_RemoveDuplicates.cs" />
+    <Compile Include="Easy\E_SearchInsert.cs" />
     <Compile Include="Easy\E_StrStr.cs" />
     <Compile Include="Easy\E_TwoSum.cs" />
     <Compile Include="Form1.cs">

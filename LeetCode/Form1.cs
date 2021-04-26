@@ -16,15 +16,19 @@ namespace LeetCode
         {
             InitializeComponent();
             //int[] A_int = new int[] {6,5,5, 2, 3, 4, 5, 4, 5, 6 };
-            int[] A_int = new int[] { 1,1,2 };
+            int[] A_int = new int[] { 3, 6, 7, 8, 10 };
             string[] A_str = new string[2] { "ab", "a" };
+            int i_Target = 5;
 
             string haystack = "qqqttlooll", needle = "ll";
 
             bool Test = E_Brackets.IsValid("(([]){})");
 
-            E_StrStr e_StrStr = new E_StrStr();
-            int indexStr = e_StrStr.StrStr(haystack, needle);
+            E_SearchInsert e_SearchInsert = new E_SearchInsert();
+            int i_sort = e_SearchInsert.SearchInsert(A_int, i_Target);
+
+            //E_StrStr e_StrStr = new E_StrStr();
+            //int indexStr = e_StrStr.StrStr(haystack, needle);
 
             // This one odd
             //E_RemoveDuplicates e_RemoveDuplicates = new E_RemoveDuplicates();
