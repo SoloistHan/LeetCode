@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LeetCode.Medium;
 
 namespace LeetCode
 {
@@ -15,35 +16,18 @@ namespace LeetCode
         public Form1()
         {
             InitializeComponent();
-            //int[] A_int = new int[] {6,5,5, 2, 3, 4, 5, 4, 5, 6 };
+            
             int[] A_int = new int[] { 3, 6, 7, 8, 10 };
             string[] A_str = new string[2] { "ab", "a" };
             int i_Target = 5;
 
             string haystack = "qqqttlooll", needle = "ll";
 
-            bool Test = E_Brackets.IsValid("(([]){})");
-
-            E_SearchInsert e_SearchInsert = new E_SearchInsert();
-            int i_sort = e_SearchInsert.SearchInsert(A_int, i_Target);
-
-            //E_StrStr e_StrStr = new E_StrStr();
-            //int indexStr = e_StrStr.StrStr(haystack, needle);
-
-            // This one odd
-            //E_RemoveDuplicates e_RemoveDuplicates = new E_RemoveDuplicates();
-            //int RDu = e_RemoveDuplicates.RemoveDuplicates(A_int);
-
-            //string Outcome = LongestCommonPrefix(QQQ);
-
-            //E_RomaNumber e_RomaNumber = new E_RomaNumber();
-            //int TESTt =  e_RomaNumber.RomanToInt("X");
-
-
-            //int Target = 9;
-            //int[] ans = E_TwoSum.TwoSum(Testt, Target);
-
-            //bool TEst = IsPalindrome(12521);
+            E_PlusOne.PlusOne(A_int);
+            //E_MaxSubArray.MaxSubArray(A_int);
+            //E_LengthOfLastWord.LengthOfLastWord(haystack);
+            //bool Test = E_Brackets.IsValid("(([]){})");
+            //bool Jump = Medium.M_CanJump.CanJump(A_int);
         }
 
         
